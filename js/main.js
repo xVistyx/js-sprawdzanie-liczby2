@@ -3,13 +3,16 @@ let liczba2 = 30;
 
 function przedzial (_par1, _par2) {
 
-if (_par1 === 20) {
-    if (_par2 === 20) {
-        if (_par1 + _par2 >= 20) {
-            return "true"
-        }
-    }
+if (par1 === 20) {
+  return true;
+} 
+else if (par2 === 20) {
+  return true;
 }
+  else if (par1 + par2 >= 20) {
+  return true
+}
+
 else {
     return "false"
 }
